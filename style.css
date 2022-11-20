@@ -1,0 +1,163 @@
+/* General Website Style rules */
+
+/*Adding a background picture for the website by adding the following line in the body:*/
+/*  background-image: url("Images/tuda_logo.jpg");*/
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: seashell;
+  }
+
+  /*Changing the colour of hyperlinked text*/
+  a {
+    color: #112d4e; 
+  }
+
+  /*Changing the picture in the header*/
+/*Top header profile image*/
+.welcome-pic-mainpage {
+   height:500px;
+   border-radius: 10%;
+   border: 10px solid wheat;
+}
+
+h1 {
+    color:burlywood;
+    font-size: xx-large;
+    font-family: cursive;
+    font-style: oblique;
+    text-align: justify;
+    text-decoration: cornsilk;
+}
+
+h2 {
+    color: seashell;
+    font-size: xx-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    text-align: center;
+}
+
+/*  Section 3  */
+
+.section-heading {
+  text-align:center;
+  color:#102C4E;
+  margin-top: 150px;
+  margin-bottom:70px;
+  font-size: 35px;
+}
+
+/* Sizing for Project Containers, i.e. funny little tiles  */
+
+.column-4 {
+  float: left;
+  width: 21%;
+  padding: 10px;
+  margin:20px;
+  height: 250px;
+}
+
+img {
+    min-width: 200px;
+    max-width: 1000px;
+}
+
+
+/* Color and Images for Project Containers  */
+
+
+.text-div {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.project-1 {
+    background: url('Images/temoin.JPG');
+    background-size: cover;
+    color: aqua;
+    font-size: 40px;
+  }
+
+
+.project-2 {
+  background-color:white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 100px;
+}
+
+.project-3 {
+  background-color:#209BFF;
+}
+
+.project-4 {
+  background-color:#112d4e;
+}
+
+.project-5 {
+  background-color:#F9F7F7;
+}
+
+.project-6 {
+  background-color:#209BFF;
+}
+
+.project-7 {
+    background-color: rebeccapurple;
+}
+
+project-8 {
+  background-color:#112d4e;
+}
+
+/* Hover classes for individual project boxes, i.e. the classes change colour upon user interaction */
+
+.project-2:hover {
+    background-color:#FEDE00;
+  }
+  
+  .project-3:hover {
+     background-color: #FEDE00;
+  }
+  
+  .project-4:hover {
+     background-color: #FEDE00;
+  }
+  
+  .project-5:hover {
+     background-color: #FEDE00;
+  }
+  
+  .project-6:hover {
+     background-color: #FEDE00;
+  }
+  
+  .project-7:hover {
+     background-color: #FEDE00;
+  }
+
+project-text {
+  text-align:center;
+  font-size:100px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+/* Rules for normal text */
+p {
+    color:darkseagreen;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+/* Rules for "container" for the pictures  */
+
+.yellow-div {
+    background-color:seashell;
+    width: 1000px;
+    padding-left:25px;
+    padding-right: 25px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 100px;
+  }
